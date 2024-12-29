@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText and Button -->
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btnFetchUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fetch User" />
+
+    <!-- TextView to display user information -->
+    <TextView
+        android:id="@+id/tvUserData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="#000" />
+
+</LinearLayout>
+
